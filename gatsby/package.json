@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build && copyfiles public/**/* ../",
+    "build": "gatsby build && copyfiles --up 1 public/**/* ../",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
